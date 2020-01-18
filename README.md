@@ -1,1 +1,1 @@
-# coding_dojo
+# alumni_cd
