@@ -1,0 +1,52 @@
+  303  mkdir Learning_To_Commit
+  304  cd Learning_To_Commit
+  305  mkdir gittest
+  306  cd gittest
+  307  git init
+  308  ls
+  309  ls -al
+  310  rm -rf .git
+  311  l
+  312  touch index.html,styles.css,abountMe.txt
+  313  ls -al
+  314  rm -rf index.html,styles.css,abountMe.txt
+  315  touch {index.html,styles.css,aboutMe.txt}
+  316  ls
+  317  code .
+  318* cd ..
+  319* cd..
+  320* cd ..
+  321* ls
+  322* cd ..
+  323* ls
+  324* git add .
+  325* git commit -m "updated aboutMe"
+  326* git add .
+  327* git commit -m "added favorite movie to aboutMe"
+  328* git log
+  329* git log --oneline
+  330* git revert HEAD
+  331* git revert -h
+  332* git -h
+  333* git --hlp
+  334* git --help
+  335* yay vim
+  336* code .
+  337* git config --global core.editor nano\n: 1579471551:0;git config --global core.editor nano
+  338* git log --oneline
+  339* git commit -m "added favorite book to aboutMe"
+  340* git add .
+  341* lit log --oneline
+  342* git log --oneline
+  343* git revert HEAD
+  344* git log --oneline
+  345* git commit -m "mistake"
+  346* git log --oneline
+  347* git revert HEAD
+  348* git log --oneline
+  349* git add .
+  350* git commit -m "retry Favorite book added to aboutMe"
+  351* git long --oneline
+  352* git log --oneline
+  353* code .
+  354* git log --oneline
