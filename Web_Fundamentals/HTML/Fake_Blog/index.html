@@ -1,0 +1,89 @@
+<!-- 
+    HTML
+    head, title, meta description, 
+    body, div, a, p, h1, ul, li, table (including thead, td, tbody, tr)
+    At the bottom of the page, create a fake survey form that uses the following tags:
+        form, select, input type="text", input type="checkbox", input type="radio", input type="submit".
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jonathan Manzano</title>
+        <meta name="description" content="This is my fake blog">
+    </head>
+    <body>
+        <div>
+            <h1>Jonathan Manzano</h1>
+        </div>
+        <div>
+            <img src="https://miro.medium.com/max/1400/1*2bjwCLaA8TfH40OXcyLNvA.png" alt="My bald head" width="500" height="500">
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut massa nec nulla consectetur imperdiet. Donec volutpat ornare pretium. In eget leo odio. Fusce mattis scelerisque sollicitudin. Nunc et ligula eu dui imperdiet varius. Nulla tortor augue, cursus vitae nibh id, vulputate ornare ante. Mauris non nisi vitae mi iaculis tempor. 
+            </p>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+            </table> 
+        </div>
+        <div>
+            <ul>
+                <li>Socks</li>
+                <li>Toys</li>
+                <li>Lorem ipsum</li>
+            </ul>
+        </div>
+        <div>
+            <form action="process.php" method="POST">
+                <select name="gender" id="idk">
+                    <option value="male">Male</option>
+                    <option value="gay">gay</option>
+                    <option value="idk">idk</option>
+                </select>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name">
+                <p>Select 3 of your favorite colors:</p>
+                <label for="blue">Blue</label>
+                <input type="checkbox" id="blue" name="color" value="blue">
+                
+                <label for="green">Green</label>
+                <input type="checkbox" id="green" name="color" value="green">
+            
+                <label for="red">Red</label>
+                <input type="checkbox" id="red" name="color" value="red">
+                
+                <label for="black">Black</label>
+                <input type="checkbox" id="black" name="color" value="black">
+            
+                <label for="purple">Purple</label>
+                <input type="checkbox" id="purple" name="color" value="Purple">
+
+                <p>Select your gender:</p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                
+                <label for="decline">Prefer not to say</label>
+                <input type="radio" id="decline" name="gender" value="decline">
+            </form>
+        </div>
+    </body>
+</html>
